@@ -1,45 +1,45 @@
 {
-  "Data Preparation": {
-    "Data privacy": "Data anonymized and compliant with privacy regulations (GDPR, HIPAA)",
-    "Test data sets": "Critical test data sets (valid, invalid, edge-case) prepared"
-  },
-  "Core Functional Tests": {
-    "CRUD operations": "Work correctly",
-    "Input validations": "All input validations, error messages, and boundary conditions verified",
-    "Dynamic content": "Renders correctly (lists, filters, paginations)",
-    "Data consistency": "Validated across frontend and backend",
-    "Transaction rollbacks": "Work correctly for failed operations",
-    "Notifications": "Notifications, alerts, and in-app messages triggered as intended"
-  },
-  "UI & Usability": {
-    "Layout": "Aligns with design specs",
-    "Design elements": "Fonts, icons, and color palettes match design tokens",
-    "Responsiveness": "Tested on mobile, tablet, desktop",
-    "Interactions": "Tooltips, modals, dropdowns behave as expected",
-    "Localization": "Language toggling and localization function correctly"
-  },
-  "Performance": {
-    "Page load time": "< 3s under normal load",
-    "Media optimization": "Images and videos optimized (WebP, lazy loading)",
-    "Console errors": "No console errors or unhandled rejections",
-    "Memory leaks": "Tested during prolonged use"
-  },
-  "Data & Logic Integrity": {
-    "Database schema": "Aligns with latest migration scripts",
-    "Data relationships and constraints": "Intact",
-    "Transaction safety": "Confirmed for multi-step processes",
-    "Event triggers and message queues": "Function correctly",
-    "Cron jobs and scheduled tasks": "Verified"
-  },
-  "API Behavior": {
-    "Endpoints": "Each endpoint returns correct status codes and payloads",
-    "Error handling": "Message consistency verified",
-    "Authentication and authorization": "Validated per role",
-    "Pagination and filtering": "Logic confirmed",
-    "Response times": "Meet SLAs (< 500ms avg)"
-  },
-  "Data Flow": {
-    "Data capture": "Captured correctly at source (forms, events, APIs)",
-    "Duplication and data drift": "No duplication or data drift between source and sink"
-  }
+  "Data Preparation": [
+    "Data privacy : Data anonymized and compliant with privacy regulations (GDPR, HIPAA)",
+    "Test data sets : Critical test data sets (valid, invalid, edge-case) prepared"
+  ],
+  "Core Functional Tests": [
+    "CRUD operations : Work correctly",
+    "Input validations : All input validations, error messages, and boundary conditions verified",
+    "Dynamic content : Renders correctly (lists, filters, paginations)",
+    "Data consistency : Validated across frontend and backend",
+    "Transaction rollbacks : Work correctly for failed operations",
+    "Notifications : Notifications, alerts, and in-app messages triggered as intended"
+  ],
+  "UI & Usability": [
+    "Layout : Aligns with design specs",
+    "Design elements : Fonts, icons, and color palettes match design tokens",
+    "Responsiveness : Tested on mobile, tablet, desktop",
+    "Interactions : Tooltips, modals, dropdowns behave as expected",
+    "Localization : Language toggling and localization function correctly"
+  ],
+  "Performance": [
+    "Page load time : < 3s under normal load",
+    "Media optimization : Images and videos optimized (WebP, lazy loading)",
+    "Console errors : No console errors or unhandled rejections",
+    "Memory leaks : Tested during prolonged use"
+  ],
+  "Data & Logic Integrity": [
+    "Database schema : Aligns with latest migration scripts",
+    "Data relationships and constraints : Intact",
+    "Transaction safety : Confirmed for multi-step processes",
+    "Event triggers and message queues : Function correctly",
+    "Cron jobs and scheduled tasks : Verified"
+  ],
+  "API Behavior": [
+    "Endpoints : Each endpoint returns correct status codes and payloads",
+    "Error handling : Message consistency verified",
+    "Authentication and authorization : Validated per role",
+    "Pagination and filtering : Logic confirmed",
+    "Response times : Meet SLAs (< 500ms avg)"
+  ],
+  "Data Flow": [
+    "Data capture : Captured correctly at source (forms, events, APIs)",
+    "Duplication and data drift : No duplication or data drift between source and sink"
+  ]
 }
