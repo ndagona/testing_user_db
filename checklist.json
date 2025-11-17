@@ -9,7 +9,8 @@
     "Dynamic content : Renders correctly (lists, filters, paginations)",
     "Data consistency : Validated across frontend and backend",
     "Transaction rollbacks : Work correctly for failed operations",
-    "Notifications : Notifications, alerts, and in-app messages triggered as intended"
+    "Notifications : Notifications, alerts, and in-app messages triggered as intended",
+    "Network Test : Simulate fast and slow connections using chrome dev tools throtlling functionality"
   ],
   "UI & Usability": [
     "Layout : Aligns with design specs",
